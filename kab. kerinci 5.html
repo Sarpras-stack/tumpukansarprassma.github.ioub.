@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sarpras.id</title>
+  <meta name="description" content="Welcome to Your Business Name. We offer exceptional products and services to meet your needs.">
+  <style>
+    /* Reset some basic styles */
+    body, h1, h2, h3, p, ul, li {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    /* Basic styling */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fffefe;
+      color: #520000;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh; /* Ensure the body takes up at least the full height of the viewport */
+    }
+
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+    }
+
+    /* Header styling */
+    .header {
+      background: #015dc0;
+      color: #fff7f7;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .header img {
+      max-height: 50px;
+    }
+
+    .nav {
+      background: #363636;
+      overflow: hidden;
+    }
+
+    .nav ul {
+      list-style: none;
+      padding: 0;
+      text-align: center; /* Center nav items */
+    }
+
+    .nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    .nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 15px 20px;
+      display: inline-block;
+    }
+
+    .nav ul li a:hover {
+      background: #575757;
+    }
+
+    /* Main content styling */
+    .main-content {
+  position: relative; /* Ensure the pseudo-element is positioned relative to this container */
+  text-align: center; /* Center the content */
+  padding: 20px 0;
+  background-image: url('https://rekreartive.com/wp-content/uploads/2019/03/Logo-Jambi-Provinsi-Jambi-Original.jpg'); /* Ganti dengan path ke gambar */
+  background-size: 30% 85%; /* Ubah ini untuk menyesuaikan ukuran gambar, misalnya 'cover' atau 'contain' */
+  background-repeat: no-repeat;
+  background-position: center; /* Mengatur posisi gambar agar di tengah */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+
+.main-content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.801); /* Warna latar belakang buram (putih dengan transparansi) */
+  filter: blur(8px); /* Mengatur efek blur. Ubah angka ini untuk mengatur intensitas blur */
+  z-index: 0;
+}
+
+
+    .main-content h1, .main-content p, .main-content a {
+      position: relative; /* Pastikan konten terlihat di atas overlay */
+      z-index: 1; /* Letakkan di atas overlay */
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      color: #fff;
+      background-color: #12b43b;
+      text-decoration: none;
+      border-radius: 4px;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .button:hover {
+      background-color: #009945;
+    }
+
+    /* Footer styling */
+    .footer {
+      background: rgb(59, 59, 59);
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    .footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive design */
+    @media (max-width: 768px) {
+      .nav ul li {
+        display: block;
+        margin: 0;
+      }
+
+      .nav ul li a {
+        display: block;
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <img src="pngwing.com.png" width="50" height="120" alt="provinsi jambi">
+      <h1>BIDANG PEMBINAAN SMA DINAS PENDIDIKAN PROVINSI JAMBI</h1>
+    </div>
+    <nav class="nav">
+      <div class="container">
+        <ul>
+          <li><a href="INFORMASI KEGIATAN.html">KEMBALI</a></li>
+          <li><a href="#seksi-kurikulum-penilaian-sma">SEKSI KURIKULUM & PENILAIAN SMA</a></li>
+          <li><a href="#seksi-kelembagaan-sarpras-sma">SEKSI KELEMBAGAAN & SARPRAS SMA</a></li>
+          <li><a href="#peserta-seksi-disdik-pembangunan-karakter-sma">PESERTA SEKSI DISDIK & PEMBANGUNAN KARAKTER SMA</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="main-content container">
+    <h1 style="font-size: 3em;">Pengumpulan Berkas</h1>
+    <p style="font-size: 1.5em;"><strong>Silakan klik tombol di bawah ini untuk mengunggah berkas Anda melalui Google Form.</strong></p>
+    <a href="https://forms.gle/4KiU6eVNDfqQwtyRA" class="button" target="_blank">UPLOAD FILE</a>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2024 Your Business Name. All rights reserved.</p>
+    <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+  </footer>
+</body>
+</html>

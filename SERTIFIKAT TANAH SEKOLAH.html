@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BIDANG PEMBINAAN SMA DINAS PENDIDIKAN PROVINSI JAMBI</title>
+  <meta name="description" content="Website resmi Bidang Pembinaan SMA Dinas Pendidikan Provinsi Jambi, memberikan informasi tentang surat izin operasional dan kegiatan lainnya.">
+  <meta name="keywords" content="Pembinaan SMA, Surat Izin Operasional, Dinas Pendidikan, Provinsi Jambi">
+  <meta name="author" content="Dinas Pendidikan Provinsi Jambi">
+  <style>
+    /* Reset some basic styles */
+    body, h1, h2, h3, p, ul, li {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    /* Basic styling */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+    }
+
+    /* Header styling */
+    .header {
+      background: #015dc0;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .header img {
+      max-height: 50px;
+    }
+
+    .nav {
+      background: #333;
+      overflow: hidden;
+    }
+
+    .nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    .nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 15px 20px;
+      display: inline-block;
+    }
+
+    .nav ul li a:hover {
+      background: #575757;
+    }
+
+    /* Main content styling */
+    .main-content {
+      flex: 1; /* Allow it to grow and fill available space */
+      display: table;
+      width: 100%;
+      text-align: center;
+    }
+
+    .main-content .section {
+      display: table-cell;
+      vertical-align: middle;
+    }
+
+    .section h2 {
+      border-bottom: 2px solid #a33737;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      font-size: 1.8em;
+    }
+
+    .section ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: table;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 1.2em; /* Ukuran font yang diperbesar */
+    }
+
+    .section ul li {
+      margin: 15px 0; /* Jarak antara item yang diperbesar */
+    }
+
+    .section ul li a {
+      text-decoration: none;
+      color: #015dc0;
+      font-weight: bold;
+    }
+
+    .section ul li a:hover {
+      color: #a33737;
+    }
+
+/* Main content styling */
+.main-content {
+  position: relative; /* Ensure the pseudo-element is positioned relative to this container */
+  text-align: center; /* Center the content */
+  padding: 20px 0;
+  background-image: url('https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2023/03/14/3040627059.jpg'); /* Ganti dengan path ke gambar */
+  background-size: 100% 105%; /* Ubah ini untuk menyesuaikan ukuran gambar, misalnya 'cover' atau 'contain' */
+  background-repeat: no-repeat;
+  background-position: center; /* Mengatur posisi gambar agar di tengah */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  overflow: hidden; /* Menyembunyikan overflow dari efek blur */
+}
+
+.main-content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(170, 170, 170, 0.63); /* Warna latar belakang buram (putih dengan transparansi) */
+  filter: blur(8px); /* Mengatur efek blur. Ubah angka ini untuk mengatur intensitas blur */
+  z-index: 0;
+}
+
+.main-content .section {
+  position: relative; /* Pastikan konten terlihat di atas overlay */
+  z-index: 1; /* Letakkan di atas overlay */
+  border: 5px solid #c5c5c5; /* Border putih */
+  border-radius: 10px; /* Radius border */
+  padding: 20px;
+  background: rgb(255, 255, 255); /* Background latar belakang bagian utama */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow */
+}
+
+.main-content h2, .main-content p, .main-content a {
+  position: relative; /* Pastikan konten terlihat di atas overlay */
+  z-index: 1; /* Letakkan di atas overlay */
+}
+
+    /* Footer styling */
+    .footer {
+      background: #3b3b3b;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+      width: 100%;
+    }
+
+    .footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive design */
+    @media (max-width: 768px) {
+      .nav ul li {
+        display: block;
+        margin: 0;
+      }
+
+      .nav ul li a {
+        display: block;
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <img src="ff.png" width="50" height="120" alt="Logo Dinas Pendidikan Provinsi Jambi">
+      <h1>BIDANG PEMBINAAN SMA DINAS PENDIDIKAN PROVINSI JAMBI</h1>
+    </div>
+    <nav class="nav">
+      <div class="container">
+        <ul>
+          <li><a href="SARPRAS.html" title="Beranda">BERANDA</a></li>
+          <li><a href="#seksi-kurikulum-penilaian-sma" title="Seksi Kurikulum & Penilaian SMA">SEKSI KURIKULUM & PENILAIAN SMA</a></li>
+          <li><a href="#seksi-kelembagaan-sarpras-sma" title="Seksi Kelembagaan & Sarpras SMA">SEKSI KELEMBAGAAN & SARPRAS SMA</a></li>
+          <li><a href="#peserta-seksi-disdik-pembangunan-karakter-sma" title="Peserta Seksi Disdik & Pembangunan Karakter SMA">PESERTA SEKSI DISDIK & PEMBANGUNAN KARAKTER SMA</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main-content container">
+    <section id="sertifikat-tanah-sekolah" class="section">
+      <h2>SERTIFIKAT TANAH SEKOLAH</h2>
+      <ul>
+        <li><a href="kota jambi new 4.html" title="Sertifikat Kota Jambi">KOTA JAMBI</a></li>
+        <li><a href="kab. muaro jambi 4.html" title="Sertifikat Kab. Muaro Jambi">KAB. MUARO JAMBI</a></li>
+        <li><a href="kab. batang hari 4.html" title="Sertifikat Kab. Batang Hari">KAB. BATANG HARI</a></li>
+        <li><a href="kab. tanjung timur 4.html" title="Sertifikat Kab. Tanjung Timur">KAB. TANJUNG TIMUR</a></li>
+        <li><a href="kab. tanjung barat 4.html" title="Sertifikat Kab. Tanjung Barat">KAB. TANJUNG BARAT</a></li>
+        <li><a href="kab. tebo 4.html" title="Sertifikat Kab. Tebo">KAB. TEBO</a></li>
+        <li><a href="kab. bungo 4.html" title="Sertifikat Kab. Bungo">KAB. BUNGO</a></li>
+        <li><a href="kab. sarolangun 4.html" title="Sertifikat Kab. Sarolangun">KAB. SAROLANGUN</a></li>
+        <li><a href="kab. merangin 4.html" title="Sertifikat Kab. Merangin">KAB. MERANGIN</a></li>
+        <li><a href="kab. kerinci 4.html" title="Sertifikat Kab. Kerinci">KAB. KERINCI</a></li>
+        <li><a href="kab. sungai penuh 4.html" title="Sertifikat Kab. Sungai Penuh">KAB. SUNGAI PENUH</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 Dinas Pendidikan Provinsi Jambi. All rights reserved.</p>
+    <p><a href="#" title="Privacy Policy">Privacy Policy</a> | <a href="#" title="Terms of Service">Terms of Service</a></p>
+  </footer>
+</body>
+</html>
